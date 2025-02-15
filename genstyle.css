@@ -1,4 +1,4 @@
-/* General Page Styling */
+
 body {
     background-color: rgb(51, 100, 255);
     font-family: 'Arial', sans-serif;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Container */
+
 #container {
     width: 80%;
     max-width: 1200px;
@@ -18,7 +18,7 @@ body {
     margin: 20px auto;
 }
 
-/* Heading */
+
 #Heading {
     text-align: center;
     color: rgb(42, 42, 110);
@@ -27,7 +27,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Profile Section - Image Left, Text Right */
+
 #prof {
     display: flex;
     align-items: center;
@@ -36,10 +36,10 @@ body {
     padding: 20px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 8px 8px 15px rgba(1, 1, 1, 0.5);
 }
 
-/* Profile Image */
+
 #prof img {
     width: 220px;
     height: 220px;
@@ -48,20 +48,15 @@ body {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile Text */
+
 #prof h2 {
     color: rgb(42, 42, 110);
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-#prof h4 {
-    font-size: 18px;
-    color: #555;
-    line-height: 1.6;
-}
 
-/* Styled Sections */
+
 #prof1, #prof2, #prof3 {
     margin-top: 30px;
 }
@@ -71,7 +66,7 @@ h3, h4 {
     font-size: 22px;
 }
 
-/* Personal Information List */
+
 #prof1 ul {
     list-style-type: none;
     padding: 0;
@@ -82,7 +77,7 @@ h3, h4 {
     margin-bottom: 10px;
 }
 
-/* Table Styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -117,7 +112,7 @@ tr:hover {
     background-color: #ddd;
 }
 
-/* Links Styling */
+
 a {
     color: #0066cc;
     text-decoration: none;
@@ -127,9 +122,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color:orange;
 }
 
-/* Video Styling */
+
 #hobby {
     width: 100%;
     max-width: 300px;
@@ -137,7 +133,7 @@ a:hover {
     margin: 20px 0;
 }
 
-/* Contact Information Section */
+
 #prof3 {
     margin-top: 30px;
 }
@@ -151,14 +147,9 @@ a:hover {
     margin-top: 10px;
     display: block;
     font-size: 18px;
+
 }
 
-/* Responsive Design for Smaller Screens */
-@media (max-width: 768px) {
-    #container {
-        width: 95%;
-        padding: 20px;
-    }
 
     #prof {
         flex-direction: column;
@@ -178,4 +169,10 @@ a:hover {
     table, th, td {
         font-size: 14px;
     }
-}
+
+
+
+
+
+                   
+
