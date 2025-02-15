@@ -1,0 +1,181 @@
+/* General Page Styling */
+body {
+    background-color: rgb(51, 100, 255);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+#container {
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+/* Heading */
+#Heading {
+    text-align: center;
+    color: rgb(42, 42, 110);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Profile Section - Image Left, Text Right */
+#prof {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+#prof img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Text */
+#prof h2 {
+    color: rgb(42, 42, 110);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#prof h4 {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Styled Sections */
+#prof1, #prof2, #prof3 {
+    margin-top: 30px;
+}
+
+h3, h4 {
+    color: rgb(42, 42, 110);
+    font-size: 22px;
+}
+
+/* Personal Information List */
+#prof1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#prof1 li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: rgb(42, 42, 110);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(42, 42, 110);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Links Styling */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Video Styling */
+#hobby {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Contact Information Section */
+#prof3 {
+    margin-top: 30px;
+}
+
+#prof3 p {
+    font-size: 18px;
+    color: rgb(42, 42, 110);
+}
+
+#prof3 a {
+    margin-top: 10px;
+    display: block;
+    font-size: 18px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    #container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    #prof {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #prof img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    h3, h4, h2 {
+        font-size: 20px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
