@@ -1,6 +1,7 @@
 
 body {
-    background-color: rgb(51, 100, 255);
+    background-image :url("me.jpg");
+    background-size: cover;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -11,11 +12,12 @@ body {
 #container {
     width: 80%;
     max-width: 1200px;
-    background-color: white;
+    background-color: img src="me.jpg" alt="MNM" width="300" height="300"white ;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
+    
 }
 
 
@@ -26,6 +28,14 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
 }
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
 
 
 #prof {
@@ -33,10 +43,13 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 30px;
     background: #fff;
+    width: 80%;
+    max-width: 1200px;
     border-radius: 10px;
-    box-shadow: 8px 8px 15px rgba(1, 1, 1, 0.5);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
 }
 
 
@@ -59,6 +72,17 @@ body {
 
 #prof1, #prof2, #prof3 {
     margin-top: 30px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
 }
 
 h3, h4 {
@@ -90,7 +114,8 @@ table {
 caption {
     font-weight: bold;
     margin-bottom: 8px;
-    color: rgb(42, 42, 110);
+    color: white;
+    font-size: 40px;
 }
 
 th, td {
