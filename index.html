@@ -7,6 +7,7 @@
     <title>My website</title>
 </head>
 <body>
+    <button id="darkModeToggle">Dark Mode</button>
     <h1>MY PROFILE</h1>
     <div id="container">
         <div id="Heading">
@@ -123,5 +124,28 @@
             </div>
         </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const darkModeToggle = document.getElementById("darkModeToggle");
+            const body = document.body;
+            const headings = document.querySelectorAll("h1, h2, h3, h4"); // Select all headings
+    
+            darkModeToggle.addEventListener("click", () => {
+                body.classList.toggle("dark-mode");
+    
+                if (body.classList.contains("dark-mode")) {
+                    darkModeToggle.textContent = "Light Mode";
+                    headings.forEach(heading => heading.style.color = "white"); // White headings in dark mode
+                } else {
+                    darkModeToggle.textContent = "Dark Mode";
+                    headings.forEach(heading => heading.style.color = "darkblue"); // Dark blue headings in light mode
+                }
+            });
+        });
+    </script>
+    
+    
+    
+    
 </body>
 </html>
